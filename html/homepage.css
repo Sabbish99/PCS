@@ -225,3 +225,42 @@ body {
     margin-bottom: 32px;
 
 }
+
+
+/* section-6  */
+.section-6 {
+    /* border: 2px solid red; */
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: black;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.section-6-1 h1 {
+    font-size: 48px;
+    color: yellowgreen;
+    margin-bottom: 20px;
+}
+
+.section-6-1 p {
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.section-6-btn .btn {
+    padding: 16px 48px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    border-radius: 6px;
+    background-color: yellowgreen;
+    border: none;
+
+}
