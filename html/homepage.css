@@ -303,11 +303,22 @@ body {
     margin-bottom: 20px;
 }
 
+
+
+
+
+
+/*-------------
+-------------
+------------ section-8 --------------
+--------------------
+-------------- */
 .section-8 {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-bottom: 50px;
     margin-left: 100px;
     margin-right: 100px;
+    margin-top: -100px;
 }
 
 .petshop {
@@ -342,8 +353,20 @@ body {
 }
 
 .section-8-2 div {
-    height: 100px;
-    width: 100px;
     border: 2px solid red;
+    padding: 20px;
+    width: 200px;
 
+}
+
+.section-8 img {
+
+    height: 300px;
+}
+
+.section-8-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
 }
