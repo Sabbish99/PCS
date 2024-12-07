@@ -172,9 +172,8 @@ body {
 
 .section-4-1 {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    gap: 200px;
     border-radius: 16px;
     padding: 50px;
 }
@@ -195,6 +194,7 @@ body {
     background-color: yellowgreen;
     border: none;
 }
+
 
 
 
