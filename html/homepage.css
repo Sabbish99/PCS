@@ -494,11 +494,13 @@ body {
 
         margin: 0px 10px 0px;
         padding-top: 20px;
+        display: none;
 
 
     }
 
     .section-1-1 {
+
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -533,6 +535,7 @@ body {
         background-color: #fff9f1;
         /* background-repeat: no-repeat; */
         margin: 0px 50px 0px;
+        padding-top: 30px;
 
     }
 
@@ -627,7 +630,7 @@ body {
 
     /* section-4 */
     .section-4 {
-        margin: 50px 100px 50px;
+        margin: 16px;
 
     }
 
@@ -652,6 +655,12 @@ body {
         padding: 50px;
     }
 
+    .section-4-1 {
+        display: grid;
+        gap: 20px;
+
+    }
+
     .section-4-btn {
         display: flex;
         justify-content: center;
@@ -660,8 +669,8 @@ body {
     }
 
     .section-4-btn .btn {
-        padding: 16px 32px;
-        font-size: 20px;
+        padding: 12px 24px;
+        font-size: 16px;
         font-weight: 600;
         color: white;
         border-radius: 6px;
@@ -675,10 +684,10 @@ body {
     /* section-5 */
     .section-5 {
         /* border: 2px solid red; */
-        margin: 50px 100px 50px;
+        margin: 16px;
         text-align: center;
         background-color: red;
-        padding: 250px;
+        padding: 30px 20px;
         background-color: rgb(255, 255, 212);
         border-radius: 16px;
         background-image: url(Image/section-5-1.jpg);
@@ -687,8 +696,8 @@ body {
     }
 
     .section-5-btn .btn {
-        padding: 16px 48px;
-        font-size: 20px;
+        padding: 12px 24px;
+        font-size: 16px;
         font-weight: 600;
         color: white;
         border-radius: 6px;
@@ -698,7 +707,7 @@ body {
     }
 
     .section-5 h1 {
-        font-size: 48px;
+        font-size: 32px;
         color: yellowgreen;
         margin-bottom: 32px;
 
@@ -708,33 +717,36 @@ body {
     /* section-6  */
     .section-6 {
         /* border: 2px solid red; */
-        margin-bottom: 50px;
-        margin-left: 100px;
-        margin-right: 100px;
+        margin-bottom: 20px;
+        margin-left: 16px;
+        margin-right: 16px;
         background-color: black;
         padding: 30px 100px;
         display: flex;
-        justify-content: space-around;
+        text-align: center;
+        gap: 30px;
+        flex-direction: column-reverse;
+        justify-content: center;
         align-items: center;
         border-radius: 20px;
     }
 
     .section-6-1 h1 {
-        font-size: 48px;
+        font-size: 32px;
         color: yellowgreen;
         margin-bottom: 20px;
     }
 
     .section-6-1 p {
-        font-size: 20px;
+        font-size: 16px;
         font-weight: 300;
         color: white;
         margin-bottom: 20px;
     }
 
     .section-6-btn .btn {
-        padding: 16px 48px;
-        font-size: 20px;
+        padding: 12px 24px;
+        font-size: 16px;
         font-weight: 600;
         color: white;
         border-radius: 6px;
@@ -747,9 +759,9 @@ body {
 
     .section-7-1 {
         /* border: 2px solid red; */
-        margin-bottom: 50px;
-        margin-left: 100px;
-        margin-right: 100px;
+        margin-bottom: 30px;
+        margin-left: 16px;
+        margin-right: 16px;
         background-color: #dcf8ff;
         padding: 30px 100px;
         background-image: url(Image/fosterimage2.png);
@@ -757,7 +769,9 @@ body {
         background-position: bottom;
         background-size: cover;
         display: flex;
-        justify-content: space-around;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
         align-items: center;
         border-radius: 20px;
     }
@@ -766,13 +780,13 @@ body {
         border: none;
         background-color: #EDB506;
         color: white;
-        padding: 20px 60px;
+        padding: 12px 24px;
         font-size: 20px;
         border-radius: 6px;
     }
 
     .section-7 h1 {
-        font-size: 48px;
+        font-size: 32px;
         color: yellowgreen;
         margin-bottom: 20px;
     }
@@ -789,10 +803,10 @@ body {
 -------------- */
     .section-8 {
         /* border: 2px solid red; */
-        margin-bottom: 50px;
-        margin-left: 100px;
-        margin-right: 100px;
-        margin-top: -100px;
+        margin-bottom: 30px;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-top: 16px;
     }
 
     .petshop {
@@ -803,7 +817,7 @@ body {
     }
 
     .section-8-1-2-1 h1 {
-        font-size: 40px;
+        font-size: 28px;
     }
 
     .section-8-1-2-1-title {
@@ -812,10 +826,10 @@ body {
 
     .section-8-btn {
         background-color: yellowgreen;
-        font-size: 16px;
+        font-size: 14px;
         border: none;
         border-radius: 6px;
-        padding: 16px 32px;
+        padding: 12px 24px;
         font-weight: 500;
         color: white;
     }
@@ -827,7 +841,7 @@ body {
     }
 
     .section-8-2 div {
-        border: 2px solid red;
+
         padding: 20px;
         width: 200px;
         box-shadow: 2px 2px 10px;
@@ -840,8 +854,9 @@ body {
     }
 
     .section-8-2 {
-        display: flex;
-        justify-content: space-between;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
         align-items: center;
         margin-top: 50px;
     }
@@ -851,10 +866,10 @@ body {
 
     .section-9 {
         /* border: 2px solid red; */
-        margin-bottom: 50px;
-        margin-left: 100px;
-        margin-right: 100px;
-        margin-top: 100px;
+        margin-bottom: 30px;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-top: 16px;
 
     }
 
@@ -871,7 +886,7 @@ body {
     }
 
     .section-9-1-1 h1 {
-        font-size: 3rem;
+        font-size: 2rem;
         color: yellowgreen;
     }
 
@@ -879,10 +894,10 @@ body {
         background-color: yellowgreen;
         color: white;
         border: none;
-        padding: 16px 32px;
-        font-size: 20px;
+        padding: 12px 24px;
+        font-size: 16px;
         border-radius: 8px;
-        font-weight: 700;
+        font-weight: 600;
     }
 
 
@@ -892,10 +907,10 @@ body {
 
     .section-10 {
         /* border: 2px solid red; */
-        margin-bottom: 50px;
-        margin-left: 100px;
-        margin-right: 100px;
-        margin-top: 100px;
+        margin-bottom: 30px;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-top: 16px;
         text-align: center;
         background-color: #dcf8ff;
         height: 30vh;
